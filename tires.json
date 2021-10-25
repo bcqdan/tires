@@ -1,0 +1,12 @@
+{
+  "tire1": {
+    "lap_time": 10.0,
+    "degradation_factor": 1.4
+  },
+  "tire2": {
+    "lap_time": 7.0,
+    "degradation_factor": 1.6
+  },
+  "pit_stop_penalty": 100,
+  "laps": 23
+}
