@@ -22,11 +22,7 @@ public final class MultiTireRun implements Run {
         this(List.of(singleTireRun), penalty);
     }
 
-<<<<<<< HEAD
-    public MultiTireRun multiTireRunAppending(List<SingleTireRun> singleTireRuns) {
-=======
     public MultiTireRun multiTireRunByAppending(List<SingleTireRun> singleTireRuns) {
->>>>>>> c2940ba (x)
         return new MultiTireRun(
                 Stream.concat(this.singleTireRuns.stream(), singleTireRuns.stream())
                         .collect(Collectors.toUnmodifiableList()),
